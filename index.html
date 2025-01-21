@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>
+    Navigation Bar
+        </title>
+        <style>
+            .Topnav{
+                overflow: hidden;
+                background-color: rgb(216, 43, 187);
+            }
+            .Topnav a{
+                float: left;
+                color: rgb(251, 255, 0);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: dotted;
+                font-size: 25px;
+            }
+            .Topnav a:hover{
+                background-color: rgb(144, 47, 255);
+                color: greenyellow;
+            }
+            .Topnav a.active{
+                background-color: black;
+                color: rgb(251, 255, 0);
+            }
+            h2{
+                text-align: center;
+                text-decoration: underline;
+                text-transform: capitalize;
+            }
+            .carousel-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+            }
+        </style>
+    </head>
+
+    <body>
+<div class="Topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="About.html">About Website</a>
+    <a href="Contact.html">Contact Us</a>
+    <a href="Gallery.html">Gallery</a>
+</div>
+
+<h2>My Favourite Places</h2>
+
+<div class="carousel-container">
+ <img class="myslides" src="pic.1.jpg" height="300" width="300" alt="slide 1">
+ <img class="myslides" src="pic.2.jpg" height="300" width="300" alt="slide 2">
+ <img class="myslides" src="pic.3.jpg" height="300" width="300" alt="slide 3">
+</div>
+<script src="script.js"></script>
+    </body>
+</html>
